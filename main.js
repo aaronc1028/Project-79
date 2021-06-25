@@ -1,19 +1,18 @@
-var students=[]
-function submit(){
-    var name1=document.getElementById("name1").value;
-    var name2=document.getElementById("name2").value;
-    var name3=document.getElementById("name3").value;
-    var name4=document.getElementById("name4").value;
-    students.push(name1)
-    students.push(name2)
-    students.push(name3)
-    students.push(name4)
-    console.log(students)
-    document.getElementById("names").innerHTML=students
-    document.getElementById("submitbutton").style.display="none"
-    document.getElementById("sortbutton").style.display="inline-block"
+menu_list_array = ["Veg Margherita Pizza","Pepperoni Pizza", "Chicken Pizza", "Cheese Pizza"
+                    ];
+
+function getmenu(){
+var htmldata;
+
 }
-function sort(){
-    students.sort();
-    document.getElementById("names").innerHTML=students
+
+function add_item(){
+var htmldata;
+var item=document.getElementById("add_item").value;
+//Complete the code
+
+}
+
+function add_top(){
+//Complete the code
 }
